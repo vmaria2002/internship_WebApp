@@ -146,7 +146,7 @@ if (isset($_POST['submit'])) {
             </a>
             <ul class="dropdown-menu">
               <div class="t" style="text-align:center;color:white">
-                <li><a class="dropdown-item" href="#formularul" target="_blank">Form</a></li>
+                <li><a class="dropdown-item" href="#form" target="_blank">Form</a></li>
                 <li><a class="dropdown-item" href="#">Link 2</a></li>
                 <li><a class="dropdown-item" href="#">Link 3</a></li>
               </div>
@@ -162,9 +162,9 @@ if (isset($_POST['submit'])) {
       <div class="spatiu">
         <div class="collapse navbar-collapse navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark1" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Residential
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Residential
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="dropdown-menu">
@@ -176,7 +176,7 @@ if (isset($_POST['submit'])) {
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark1" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-dark1  text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Business
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -190,19 +190,19 @@ if (isset($_POST['submit'])) {
             </li>
             <li class="nav-item">
               <div class="ppp">
-              <a class="nav-link text-dark1" href="#">Service Area</a>
+              <a class="nav-link text-dark1  text-dark" href="#">Service Area</a>
               </div>
             </li>
             <li class="nav-item">
             <div class="ppp">
-              <a class="nav-link text-dark1" href="#">Success Stories</a>
+              <a class="nav-link text-dark1  text-dark" href="#">Success Stories</a>
             </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark1" href="#paginastart">Get Started</a>
+              <a class="nav-link text-dark1  text-dark" href="#paginastart">Get Started</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark1 font-weight-bold" href="#">Call Us 800-311-7340</a>
+              <a class="nav-link text-dark1 font-weight-bold text-dark" href="#">Call Us 800-311-7340</a>
             </li>
           </ul>
         </div>
@@ -278,8 +278,8 @@ if (isset($_POST['submit'])) {
         <img class="img3-style" style="width: 100%;" src="Imagini/ImgCasa.png">
         <!-- padding: chenarul alb -->
         <div class="padding">
-          <div class="col-md-7" style="font-size: 15px; color: red; ">HOMES SERVED</div>
-          <div1 class="text-dark col-md-12" style="font-size: 10px; color: black; margin-top: 30px;">Serving Over 50,000 Residential Users.<br></br> We are happy to serve over 9,000 homes and 20,000
+          <div class="col-md-7" style="font-size: 25px; color: red; margin-top: 30px;">HOMES SERVED</div>
+          <div1 class="text-dark col-md-12" style="font-size: 15px; color: black; margin-top: 30px;">Serving Over 50,000 Residential Users.<br></br> We are happy to serve over 9,000 homes and 20,000
             residents with Internet, video entertainment, and phone services. This includes residents in the towns of Lenawee
             and Western Monroe counties, as well as remote residences and farms throughout the area. We currently
             offer up to 500 Mbps Internet download speeds in the towns and up to 50 Mbps Internet download speeds in
@@ -303,11 +303,11 @@ if (isset($_POST['submit'])) {
           education,
           non-profits, manufacturing and municipalities including:
         </p>
-        <!-- imagine gri: filter: grayscale(1) -->
+      
         <div class="swiper" style="width: 100%;height: 100%; filter: grayscale(1);
   opacity: 0.5;">
           <div class="swiper-wrapper">
-            <!-- imagineamea: padding+redimensionare!! -->
+         
             <div class="swiper-slide  imagineamea"><img src="Imagini/Promedica Logo.png"></div>
             <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
             <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
@@ -742,14 +742,16 @@ if (isset($_POST['submit'])) {
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <footer>
-    <div class="footer" style=" background-image: url(Imagini/Background10.png);
+    
+     <div class="footer" style=" background-image: url(Imagini/Background10.png);
   background-color: #161616;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;">
       <div class="container">
-        <div class="row marginbutton1">
+        <div class="row marginbutton1" style="padding-top: 200px;
+  padding-bottom: 50px;">
           <div class="col-md text-center background">
             <a href="tel:800-311-7340" class="text-white textdec"><img class="img-padding" src="Imagini/Call.png" alt="call"> Call
               800-311-7340</a>
@@ -765,14 +767,14 @@ if (isset($_POST['submit'])) {
           </div>
         </div>
       </div>
-      <div class="firstofall head pb-5" id="formularul">
+      <div class="firstofall head pb-5" id="form">
         <div class="primer container py-5">
           <div class="card" data-aos="fade-up">
             <div class="card-body">
               <h1 class="font-weight-light text-center py-4">Contact Us</h1>
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <form enctype="multipart/form-data" action="#formularul" method="POST">
+                  <form enctype="multipart/form-data" action="#form" method="POST">
                     <div class="form-row">
                       <div class="form-group">
                         <?= $output; ?>
@@ -818,7 +820,7 @@ if (isset($_POST['submit'])) {
                       </div>
                     </div>
                     <div class="form-row">
-                      <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
+                      <div class="form-group col-lg-4 col-md-6 col-sm-12 col-12">
                         <label for="contact">How do you want to be contacted?</label>
                         <select id="contact" name="contact" class="form-select form-control">
                           <option value="1">Email</option>
@@ -1055,7 +1057,7 @@ if (isset($_POST['submit'])) {
 
 <script>
 function myFunction() {
-  document.getElementById("formularul");
+  document.getElementById("form");
   window.location.reload();
 }
 </script>

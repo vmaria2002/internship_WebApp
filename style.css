@@ -2,6 +2,16 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100,100,100, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
+.form-check-input {
+  position: absolute;
+  margin-top: 7px!important;
+
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+  color: black !important;
+}
+
 .grayscale {
   filter: grayscale(1);
   opacity: 0.5;
@@ -375,7 +385,7 @@ img.img-padding {
   background-color: #161616;
   border: 1px solid rgb(63, 62, 62);
   /* spatiu deasupra textului */
-  padding-top: 30px;
+  padding-top: 26px;
   /* spatiu sub text :) */
   padding-bottom: 30px;
 }
@@ -1006,7 +1016,8 @@ img {
 
 @media (max-width: 1201px) {
   .marginbutton1 {
-    padding-top: 20px;
+    padding-top:130px!important;
+    padding-top: 50px;
     padding-bottom: 20px;
   }
 
@@ -1265,11 +1276,11 @@ img {
     border-radius: 100px;
   }
 
-  .marginbutton1{
+  /* .marginbutton1{
     padding-block-end: 10px;
     left:100px;
     width:223px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -1301,11 +1312,10 @@ img {
   }
 }
 .marginbutton1{
-  padding-block-end: 10px;
-  left:100px;
-  width:223px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-@media (max-width: 726px) {
+/* @media (max-width: 726px) {
 .marginbutton{
   margin-block: 3px;
     min-height: 1px;
@@ -1313,10 +1323,10 @@ img {
     padding-left: 15px!important;
 }
 
-}
+} */
 @media (max-width: 576px) {
   .marginbutton {
-    padding-left: 120px;
+    padding-left: 20px;
     padding-right: 20px;
   }
 
