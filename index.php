@@ -39,15 +39,15 @@ if (isset($_POST['submit'])) {
     $mail->isSMTP();
     $mail->Host = 'in-v3.mailjet.com';
     $mail->SMTPAuth = true;
-    $mail->Username = '748d4851fe0c554f2ead0478f5c41e70';
-    $mail->Password = 'cf5232c2ebb48ea4686f7f4db6f2423a';
+    $mail->Username = '70';
+    $mail->Password = 'cfa';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
 
-    $mail->setFrom('maria.vasilache02@gmail.com');
+    $mail->setFrom('');
 
-    $mail->addAddress('maria.vasilache02@gmail.com');
+    $mail->addAddress('');
     $mail->addAddress($email);
 
     $mail->isHTML(true);
