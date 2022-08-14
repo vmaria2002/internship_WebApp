@@ -39,8 +39,8 @@ if (isset($_POST['submit'])) {
     $mail->isSMTP();
     $mail->Host = 'in-v3.mailjet.com';
     $mail->SMTPAuth = true;
-    $mail->Username = '70';
-    $mail->Password = 'cfa';
+    $mail->Username = '7';
+    $mail->Password = 'cf';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
@@ -147,7 +147,7 @@ if (isset($_POST['submit'])) {
             <ul class="dropdown-menu">
               <div class="t" style="text-align:center;color:white">
                 <li><a class="dropdown-item" href="#form" target="_blank">Form</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="qr.html">QR code</a></li>
                 <li><a class="dropdown-item" href="#">Link 3</a></li>
               </div>
             </ul>
@@ -162,17 +162,17 @@ if (isset($_POST['submit'])) {
       <div class="spatiu">
         <div class="collapse navbar-collapse navbarNavDropdown">
           <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Residential
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Residential
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="dropdown-menu">
-              <div class="t" style="text-align:center;color:white">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-              </div>
+                <div class="t" style="text-align:center;color:white">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </div>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -181,22 +181,22 @@ if (isset($_POST['submit'])) {
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="dropdown-menu">
-              <div class="t" style="text-align:center;color:white">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-              </div>
+                <div class="t" style="text-align:center;color:white">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </div>
               </ul>
             </li>
             <li class="nav-item">
               <div class="ppp">
-              <a class="nav-link text-dark1  text-dark" href="#">Service Area</a>
+                <a class="nav-link text-dark1  text-dark" href="#">Service Area</a>
               </div>
             </li>
             <li class="nav-item">
-            <div class="ppp">
-              <a class="nav-link text-dark1  text-dark" href="#">Success Stories</a>
-            </div>
+              <div class="ppp">
+                <a class="nav-link text-dark1  text-dark" href="#">Success Stories</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark1  text-dark" href="#paginastart">Get Started</a>
@@ -303,11 +303,11 @@ if (isset($_POST['submit'])) {
           education,
           non-profits, manufacturing and municipalities including:
         </p>
-      
+
         <div class="swiper" style="width: 100%;height: 100%; filter: grayscale(1);
   opacity: 0.5;">
           <div class="swiper-wrapper">
-         
+
             <div class="swiper-slide  imagineamea"><img src="Imagini/Promedica Logo.png"></div>
             <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
             <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
@@ -742,8 +742,8 @@ if (isset($_POST['submit'])) {
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <footer>
-    
-     <div class="footer" style=" background-image: url(Imagini/Background10.png);
+
+    <div class="footer" style=" background-image: url(Imagini/Background10.png);
   background-color: #161616;
   width: 100%;
   background-size: cover;
@@ -837,11 +837,11 @@ if (isset($_POST['submit'])) {
                     </div>
                     <div class="form-row">
                       <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
-                       
-                      
-                      <button type="submit"  name="submit" value="Send" class="btn btn-danger btn-block" id="sendBtn"style="width:135px"  onclick="myFunction()">Send message!</button>
-                       
-                     
+
+
+                        <button type="submit" name="submit" value="Send" class="btn btn-danger btn-block" id="sendBtn" style="width:135px" onclick="myFunction()">Send message!</button>
+
+
                       </div>
                     </div>
                   </form>
@@ -851,9 +851,25 @@ if (isset($_POST['submit'])) {
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="geolocation" style="color:white">
+          Geolocation
+          <!-- o harta -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.5056482171453!2d73.71688411494024!3d21.83802336503438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39601d55e43af21f%3A0xb8e23c01a1f6eb18!2sStatue%20of%20Unity!5e0!3m2!1sen!2sin!4v1641230123226!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+          <button type="button" onclick="getlocation();">
+            Current Position
+          </button><br><br>
+          <div class="responsive" id="demo2" style="width:calc( 1140px-10px); height:500px; padding: 3px"></div>
 
 
-      <div class="container p-5 pb-0">
+
+        </div><br></br> </div>
+       
+
+        <t4>    If you are not being redirected, please click <a href="qr.html">here</a></t4>
+
+      <div class="container">
         <div class="row textalgncenter">
           <div class="col-md margright text-center">
             <a href="#paginastart" target="_blank"><img class="padlogo1" style="padding-bottom: 30px;" src="Imagini/Img1Footer.png" alt="call"></a>
@@ -996,7 +1012,10 @@ if (isset($_POST['submit'])) {
   <script src="assets/js/aos.js"></script>
   <script src="assets/js/cc5b02c2a0.js"></script>
   <script>
-    AOS.init();
+    // se incarca o singura data animatiile :)
+    AOS.init({
+      once: true,
+    });
   </script>
 
 
@@ -1055,14 +1074,74 @@ if (isset($_POST['submit'])) {
   </script>
 
 
-<script>
-function myFunction() {
-  document.getElementById("form");
-  window.location.reload();
-}
+  <script>
+    function myFunction() {
+      document.getElementById("form");
+      window.location.reload();
+    }
+  </script>
+
+  <script src="https://maps.google.com/maps/api/js?sensor=false">
+  </script>
+  <script type="text/javascript">
+    function getlocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showLoc, errHand);
+      }
+    }
+
+    function showLoc(pos) {
+      latt = pos.coords.latitude;
+      long = pos.coords.longitude;
+      var lattlong = new google.maps.LatLng(latt, long);
+      var OPTions = {
+        center: lattlong,
+        zoom: 10,
+        mapTypeControl: true,
+        navigationControlOptions: {
+          style: google.maps.NavigationControlStyle.SMALL,
+        },
+      };
+      var mapg = new google.maps.Map(
+        document.getElementById("demo2"),
+        OPTions
+      );
+      var markerg = new google.maps.Marker({
+        position: lattlong,
+        map: mapg,
+        title: "You are here!",
+      });
+    }
+
+    function errHand(err) {
+      switch (err.code) {
+        case err.PERMISSION_DENIED:
+          result.innerHTML =
+            "The application doesn't have the permission" +
+            "to make use of location services";
+          break;
+        case err.POSITION_UNAVAILABLE:
+          result.innerHTML = "The location of the device is uncertain";
+          break;
+        case err.TIMEOUT:
+          result.innerHTML = "The request to get user location timed out";
+          break;
+        case err.UNKNOWN_ERROR:
+          result.innerHTML =
+            "Time to fetch location information exceeded" +
+            "the maximum timeout interval";
+          break;
+      }
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <script type="text/javascript">
+
+const qrcode = document.getElementById("qrcode");
+const textInput = document.getElementById("text");
+
 </script>
 
-
-</body>
 
 </html>
