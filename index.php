@@ -1,3 +1,4 @@
+
 <?php
 error_reporting(0);
 
@@ -39,15 +40,15 @@ if (isset($_POST['submit'])) {
     $mail->isSMTP();
     $mail->Host = 'in-v3.mailjet.com';
     $mail->SMTPAuth = true;
-    $mail->Username = '7';
-    $mail->Password = 'cf';
+    $mail->Username = '748d4851fe0c554f2ead0478f5c41e70';
+    $mail->Password = 'cf5232c2ebb48ea4686f7f4db6f2423a';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
 
-    $mail->setFrom('');
+    $mail->setFrom('maria.vasilache02@gmail.com');
 
-    $mail->addAddress('');
+    $mail->addAddress('maria.vasilache02@gmail.com');
     $mail->addAddress($email);
 
     $mail->isHTML(true);
@@ -88,7 +89,7 @@ if (isset($_POST['submit'])) {
 
 <body>
 
-  <nav class="navbar navbar-expand-lg" id="paginastart">
+  <nav class="navbar navbar-expand-lg sticky-top" id="paginastart">
     <div class="container">
       <a href="#paginastart" target="_blank"><img class="img-fluid" src="Imagini/Logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -157,7 +158,7 @@ if (isset($_POST['submit'])) {
     </div>
   </nav>
 
-  <nav class="navbar2 navbar-expand-lg navbar-light bg-light1">
+  <nav class="navbar2 navbar-expand-lg navbar-light bg-light1 sticky" id="paginastart">
     <div class="container">
       <div class="spatiu">
         <div class="collapse navbar-collapse navbarNavDropdown">
@@ -209,6 +210,10 @@ if (isset($_POST['submit'])) {
       </div>
     </div>
   </nav>
+
+</div><div class="progress sticky-top " id="myBar" style="height: 26px;">
+  <div class="progress-bar" role="progressbar" style="width: 100%;color:red" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100"></div>
+</div>
 
   <div class="slide1" style="background-image:url('Imagini/Background1.png'); background-size: 100%; background-repeat:no-repeat;" id="ps">
     <div class="container">
@@ -1143,5 +1148,16 @@ const textInput = document.getElementById("text");
 
 </script>
 
+<script>
+   // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+</script>
 </html>
