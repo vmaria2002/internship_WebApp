@@ -1,5 +1,9 @@
+
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100,100,100, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  position: sticky;
+  top: 0px;
 }
 
 .form-check-input {
@@ -7,9 +11,16 @@
   margin-top: 7px!important;
 
 }
+.progress-bar {
 
+  background: red!important;
+  padding-bottom: 5px;
+ }
 .navbar-light .navbar-nav .show>.nav-link {
   color: black !important;
+  position: sticky!important;
+  top: 0px !important;
+  box-sizing: border-box!important;
 }
 
 .grayscale {
@@ -33,6 +44,9 @@
 
 .navbar {
   background-color: #161616;
+  position: sticky;
+  position: sticky;
+  top: 0px;
 }
 
 .space {
@@ -684,6 +698,8 @@ img {
 
   .nav-link {
     font-size: 20px !important;
+    position: sticky!important;
+    top: 0px !important;
   }
 
   .dropdown-item {
@@ -1199,6 +1215,9 @@ img {
 
   .navbar-nav {
     text-align: center;
+    position: sticky;
+  top: 0px;
+    
   }
 
   .dropdown-menu {
@@ -1208,10 +1227,14 @@ img {
 
   .navbar {
     padding: 10px !important;
+    position: sticky!important;
+  top: 0px!important;
   }
 
   .navimg {
     width: 300px !important;
+    position: sticky!important;
+    top: 0px!important;
   }
 
   .bg-light1 {
@@ -1220,6 +1243,8 @@ img {
 
   .navbar2 .text-dark1 {
     color: white !important;
+    position: sticky!important;
+    top: 0px!important;
   }
 
   .contact form {
@@ -1338,6 +1363,8 @@ img {
 
   .navimg {
     width: 200px !important;
+    position: sticky!important;
+    top: 0px!important;
   }
 }
 
